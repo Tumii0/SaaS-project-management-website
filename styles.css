@@ -22,6 +22,7 @@ html{
 }
 body{
    height: 400px;
+   background: var(--clr-primary);
 }
 .reveal{
 position: relative;
@@ -380,6 +381,7 @@ background:conic-gradient(var(--clr-main) calc(var(--percentage)* 1% ), var(--cl
     justify-content: center;
     gap: 80px;
     padding: 15px;
+    background: var(--clr-white);
 }
 .testimonial-person--image{
     display: block;
@@ -455,7 +457,7 @@ font-size: 20px;
     font-weight: 100;
 }
 .copyright a{
-    text-decoration: none;
+  
     color: var(--clr-white);
    
 }
@@ -677,6 +679,7 @@ font-size: 20px;
 .superiority, .howItWorks-section{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: center;
    
 }
 .graphXstatistics{
@@ -736,7 +739,8 @@ font-size: 20px;
 
 .howItWorks-section{
     position: relative;
-    bottom: 174px
+    bottom: 174px;
+    gap: 100px;
 }
 .howitworks-textcontent{
     margin-left: 70px;
@@ -750,8 +754,8 @@ font-size: 20px;
     height: 210px;
     border-radius: 15px;
     position: relative;
-    left: 738px;
-    bottom: 532px;
+    left: 74px;
+    bottom: 362px;
     box-shadow: -1px 2px 8px 2px rgb(0 0 0 / 5%);
 }
 .video-container p {
@@ -776,7 +780,7 @@ video{
     flex-direction: column;
     position: relative;
     bottom: 445px;
-    right: 30px;
+    right: 106px;
     height: 175px;
 }
 .documents-container h4{
@@ -823,8 +827,8 @@ video{
     width: 180px;
     box-shadow: -1px 2px 8px 2px rgb(0 0 0 / 5%);
     position: relative;
-    left: 635px;
-    bottom: 529px;
+    bottom: 508px;
+    left: 73px;
 }
 .contact-container h4{
     margin-bottom: 20px;
@@ -890,10 +894,11 @@ hr{
 .testimonial-section{
     position: relative;
     bottom: 589px;
-    background: white;
-    padding-top: 10px;
-    padding: auto;
-}
+    background: var(--clr-white);
+    padding-top: 48px;
+    padding-bottom: 42px;
+   }
+
 .testimonialRound-image{
     display: block;
     width: 300px;
@@ -905,7 +910,8 @@ hr{
 footer{
       flex-direction: row;
       position: relative;
-      bottom: 496px;
+      bottom: 572px;
+      padding: 30px;
 }
 
 .social-media h1, .footer-links h1, .about-us h1, .contact-us h1{
@@ -913,6 +919,7 @@ footer{
 }
 .copyright{
     position: relative;
-    bottom: 504px;
+    bottom: 596px;
 }
+
 }
