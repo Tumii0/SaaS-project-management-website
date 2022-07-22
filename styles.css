@@ -536,6 +536,8 @@ font-size: 20px;
 }
 .header-imageContainer{
     display: block;
+    position: relative;
+    bottom: 179px;
 }
 .header-text h1{
     font-size: 4.8rem;
@@ -571,9 +573,9 @@ font-size: 20px;
     width: 245px;
     height: 170px;
     border-radius: 15px;
-    position: absolute;
-    left: 425px;
-    bottom: 196px;
+    position: relative;
+    top: 270px;
+    right: 94px;
     transform: scale(0.9);
     z-index: 1;
 }
