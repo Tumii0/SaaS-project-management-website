@@ -262,6 +262,8 @@ ul {
 }
 .superiority-betweenImage{
     display: block;
+    width: 286px;
+    margin: auto;
 }
 
 
@@ -530,6 +532,7 @@ font-size: 20px;
 .header-container{
     height: 700px;
     padding: 20px;
+    justify-content: center;
 }
 .header-imageContainer{
     display: block;
